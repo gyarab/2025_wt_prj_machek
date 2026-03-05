@@ -14,3 +14,6 @@ Aplikace rozlišuje tři základní role:
 
 Technický kontext
 Datový model aplikace zahrnuje minimálně tyto entity: Game, Developer, Publisher, Genre, Platform, Tag, User, Review, Comment, Library, Wishlist. Mezi entitami existují vztahy 1:N (hra–recenze, uživatel–recenze) i M:N (hra–žánr, hra–platforma, hra–tag), což zaručuje dostatečnou komplexitu databázové struktury vhodnou pro výukové účely v oblasti návrhu relačních databází a tvorby webových aplikací.
+![Userflow](https://github.com/user-attachments/assets/afe5759e-cff7-466b-8bce-babe5f73aa3c)
+![Wireframe1](https://github.com/user-attachments/assets/c7d0156a-8625-4ffd-97aa-e108e91506b9)
+![Wireframe2](https://github.com/user-attachments/assets/f5505819-2ed7-432a-ad99-7595cbe76e39)
