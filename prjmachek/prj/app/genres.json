@@ -1,0 +1,12 @@
+[
+  {"model": "app.genre", "pk": 1,  "fields": {"name": "Drama",       "movie": [4, 5, 7, 8, 9, 10, 11, 19, 34, 44, 45, 46, 49]}},
+  {"model": "app.genre", "pk": 2,  "fields": {"name": "Thriller",    "movie": [16, 17, 18, 25, 26, 29, 35, 36, 41, 42]}},
+  {"model": "app.genre", "pk": 3,  "fields": {"name": "Sci-Fi",      "movie": [1, 22, 24, 25, 27, 28, 38, 39, 40, 47]}},
+  {"model": "app.genre", "pk": 4,  "fields": {"name": "Crime",       "movie": [4, 5, 6, 7, 8, 29, 30, 36, 41, 42]}},
+  {"model": "app.genre", "pk": 5,  "fields": {"name": "Horror",      "movie": [3, 16, 24, 32, 37]}},
+  {"model": "app.genre", "pk": 6,  "fields": {"name": "Action",      "movie": [7, 9, 12, 21, 23, 26, 29, 30, 38]}},
+  {"model": "app.genre", "pk": 7,  "fields": {"name": "Fantasy",     "movie": [37, 38, 43, 47, 48]}},
+  {"model": "app.genre", "pk": 8,  "fields": {"name": "Comedy",      "movie": [13, 14, 15, 20, 33, 43, 45, 49, 50]}},
+  {"model": "app.genre", "pk": 9,  "fields": {"name": "Romance",     "movie": [14, 15, 34, 49, 50]}},
+  {"model": "app.genre", "pk": 10, "fields": {"name": "Documentary", "movie": [11, 19, 46, 48]}}
+]

@@ -1,0 +1,17 @@
+[
+  {"model": "app.author", "pk": 1,  "fields": {"name": "George Orwell",        "email": "george.orwell@literaryestate.co.uk"}},
+  {"model": "app.author", "pk": 2,  "fields": {"name": "Franz Kafka",          "email": "franz.kafka@prager-literatur.de"}},
+  {"model": "app.author", "pk": 3,  "fields": {"name": "Fyodor Dostoevsky",    "email": "f.dostoevsky@russianclassics.ru"}},
+  {"model": "app.author", "pk": 4,  "fields": {"name": "Gabriel García Márquez","email": "gabo.marquez@macondo-editorial.co"}},
+  {"model": "app.author", "pk": 5,  "fields": {"name": "Toni Morrison",        "email": "toni.morrison@vintage-books.com"}},
+  {"model": "app.author", "pk": 6,  "fields": {"name": "Haruki Murakami",      "email": "murakami.h@shinchosha.co.jp"}},
+  {"model": "app.author", "pk": 7,  "fields": {"name": "Milan Kundera",        "email": "milan.kundera@gallimard.fr"}},
+  {"model": "app.author", "pk": 8,  "fields": {"name": "Bohumil Hrabal",       "email": "b.hrabal@odeon-prague.cz"}},
+  {"model": "app.author", "pk": 9,  "fields": {"name": "Ursula K. Le Guin",    "email": "ursula.leguin@harcourt.com"}},
+  {"model": "app.author", "pk": 10, "fields": {"name": "Cormac McCarthy",      "email": "c.mccarthy@randomhouse.com"}},
+  {"model": "app.author", "pk": 11, "fields": {"name": "Margaret Atwood",      "email": "m.atwood@mcclelland.ca"}},
+  {"model": "app.author", "pk": 12, "fields": {"name": "Umberto Eco",          "email": "umberto.eco@bompiani.it"}},
+  {"model": "app.author", "pk": 13, "fields": {"name": "Donna Tartt",          "email": "donna.tartt@little-brown.com"}},
+  {"model": "app.author", "pk": 14, "fields": {"name": "Kazuo Ishiguro",       "email": "k.ishiguro@faber-faber.co.uk"}},
+  {"model": "app.author", "pk": 15, "fields": {"name": "Elena Ferrante",       "email": "e.ferrante@edizioni-e-o.it"}}
+]
