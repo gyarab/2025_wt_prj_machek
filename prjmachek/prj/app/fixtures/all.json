@@ -1,0 +1,1352 @@
+[
+  {
+    "model": "app.director",
+    "pk": 1,
+    "fields": {
+      "name": "Stanley Kubrick",
+      "birth_year": 1928
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 2,
+    "fields": {
+      "name": "Martin Scorsese",
+      "birth_year": 1942
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 3,
+    "fields": {
+      "name": "Francis Ford Coppola",
+      "birth_year": 1939
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 4,
+    "fields": {
+      "name": "Ingmar Bergman",
+      "birth_year": 1918
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 5,
+    "fields": {
+      "name": "Akira Kurosawa",
+      "birth_year": 1910
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 6,
+    "fields": {
+      "name": "Federico Fellini",
+      "birth_year": 1920
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 7,
+    "fields": {
+      "name": "Alfred Hitchcock",
+      "birth_year": 1899
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 8,
+    "fields": {
+      "name": "Steven Spielberg",
+      "birth_year": 1946
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 9,
+    "fields": {
+      "name": "Ridley Scott",
+      "birth_year": 1937
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 10,
+    "fields": {
+      "name": "Christopher Nolan",
+      "birth_year": 1970
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 11,
+    "fields": {
+      "name": "Quentin Tarantino",
+      "birth_year": 1963
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 12,
+    "fields": {
+      "name": "David Lynch",
+      "birth_year": 1946
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 13,
+    "fields": {
+      "name": "Wes Anderson",
+      "birth_year": 1969
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 14,
+    "fields": {
+      "name": "Sofia Coppola",
+      "birth_year": 1971
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 15,
+    "fields": {
+      "name": "David Fincher",
+      "birth_year": 1962
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 16,
+    "fields": {
+      "name": "Guillermo del Toro",
+      "birth_year": 1964
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 17,
+    "fields": {
+      "name": "Denis Villeneuve",
+      "birth_year": 1967
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 18,
+    "fields": {
+      "name": "Park Chan-wook",
+      "birth_year": 1963
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 19,
+    "fields": {
+      "name": "Bong Joon-ho",
+      "birth_year": 1969
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 20,
+    "fields": {
+      "name": "Věra Chytilová",
+      "birth_year": 1929
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 21,
+    "fields": {
+      "name": "Miloš Forman",
+      "birth_year": 1932
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 22,
+    "fields": {
+      "name": "Jiří Menzel",
+      "birth_year": 1938
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 23,
+    "fields": {
+      "name": "Terrence Malick",
+      "birth_year": 1943
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 24,
+    "fields": {
+      "name": "Andrei Tarkovsky",
+      "birth_year": 1932
+    }
+  },
+  {
+    "model": "app.director",
+    "pk": 25,
+    "fields": {
+      "name": "Pedro Almodóvar",
+      "birth_year": 1949
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 1,
+    "fields": {
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
+      "rating": 10,
+      "director": 1
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 2,
+    "fields": {
+      "title": "A Clockwork Orange",
+      "year": 1971,
+      "rating": 9,
+      "director": 1
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 3,
+    "fields": {
+      "title": "The Shining",
+      "year": 1980,
+      "rating": 9,
+      "director": 1
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Goodfellas",
+      "year": 1990,
+      "rating": 10,
+      "director": 2
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Taxi Driver",
+      "year": 1976,
+      "rating": 9,
+      "director": 2
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 6,
+    "fields": {
+      "title": "The Departed",
+      "year": 2006,
+      "rating": 9,
+      "director": 2
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 7,
+    "fields": {
+      "title": "The Godfather",
+      "year": 1972,
+      "rating": 10,
+      "director": 3
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 8,
+    "fields": {
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "rating": 10,
+      "director": 3
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "rating": 9,
+      "director": 3
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Persona",
+      "year": 1966,
+      "rating": 9,
+      "director": 4
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Seventh Seal",
+      "year": 1957,
+      "rating": 9,
+      "director": 4
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Seven Samurai",
+      "year": 1954,
+      "rating": 10,
+      "director": 5
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 13,
+    "fields": {
+      "title": "Rashomon",
+      "year": 1950,
+      "rating": 9,
+      "director": 5
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 14,
+    "fields": {
+      "title": "8½",
+      "year": 1963,
+      "rating": 9,
+      "director": 6
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 15,
+    "fields": {
+      "title": "La Dolce Vita",
+      "year": 1960,
+      "rating": 9,
+      "director": 6
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Psycho",
+      "year": 1960,
+      "rating": 9,
+      "director": 7
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Vertigo",
+      "year": 1958,
+      "rating": 9,
+      "director": 7
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 18,
+    "fields": {
+      "title": "Rear Window",
+      "year": 1954,
+      "rating": 9,
+      "director": 7
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 19,
+    "fields": {
+      "title": "Schindler's List",
+      "year": 1993,
+      "rating": 10,
+      "director": 8
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Jurassic Park",
+      "year": 1993,
+      "rating": 8,
+      "director": 8
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 21,
+    "fields": {
+      "title": "Raiders of the Lost Ark",
+      "year": 1981,
+      "rating": 9,
+      "director": 8
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 22,
+    "fields": {
+      "title": "Blade Runner",
+      "year": 1982,
+      "rating": 9,
+      "director": 9
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 23,
+    "fields": {
+      "title": "Gladiator",
+      "year": 2000,
+      "rating": 8,
+      "director": 9
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 24,
+    "fields": {
+      "title": "Alien",
+      "year": 1979,
+      "rating": 9,
+      "director": 9
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 25,
+    "fields": {
+      "title": "Inception",
+      "year": 2010,
+      "rating": 9,
+      "director": 10
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 26,
+    "fields": {
+      "title": "The Dark Knight",
+      "year": 2008,
+      "rating": 10,
+      "director": 10
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 27,
+    "fields": {
+      "title": "Interstellar",
+      "year": 2014,
+      "rating": 9,
+      "director": 10
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 28,
+    "fields": {
+      "title": "Oppenheimer",
+      "year": 2023,
+      "rating": 9,
+      "director": 10
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 29,
+    "fields": {
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "rating": 10,
+      "director": 11
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Inglourious Basterds",
+      "year": 2009,
+      "rating": 9,
+      "director": 11
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 31,
+    "fields": {
+      "title": "Mulholland Drive",
+      "year": 2001,
+      "rating": 9,
+      "director": 12
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 32,
+    "fields": {
+      "title": "Blue Velvet",
+      "year": 1986,
+      "rating": 8,
+      "director": 12
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 33,
+    "fields": {
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "rating": 8,
+      "director": 13
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 34,
+    "fields": {
+      "title": "Lost in Translation",
+      "year": 2003,
+      "rating": 8,
+      "director": 14
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 35,
+    "fields": {
+      "title": "Fight Club",
+      "year": 1999,
+      "rating": 9,
+      "director": 15
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 36,
+    "fields": {
+      "title": "Se7en",
+      "year": 1995,
+      "rating": 9,
+      "director": 15
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 37,
+    "fields": {
+      "title": "Pan's Labyrinth",
+      "year": 2006,
+      "rating": 9,
+      "director": 16
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 38,
+    "fields": {
+      "title": "Dune",
+      "year": 2021,
+      "rating": 9,
+      "director": 17
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 39,
+    "fields": {
+      "title": "Arrival",
+      "year": 2016,
+      "rating": 9,
+      "director": 17
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 40,
+    "fields": {
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "rating": 9,
+      "director": 17
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 41,
+    "fields": {
+      "title": "Oldboy",
+      "year": 2003,
+      "rating": 9,
+      "director": 18
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 42,
+    "fields": {
+      "title": "Parasite",
+      "year": 2019,
+      "rating": 10,
+      "director": 19
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 43,
+    "fields": {
+      "title": "Daisies",
+      "year": 1966,
+      "rating": 8,
+      "director": 20
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 44,
+    "fields": {
+      "title": "One Flew Over the Cuckoo's Nest",
+      "year": 1975,
+      "rating": 10,
+      "director": 21
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 45,
+    "fields": {
+      "title": "Closely Watched Trains",
+      "year": 1966,
+      "rating": 8,
+      "director": 22
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 46,
+    "fields": {
+      "title": "The Tree of Life",
+      "year": 2011,
+      "rating": 8,
+      "director": 23
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 47,
+    "fields": {
+      "title": "Stalker",
+      "year": 1979,
+      "rating": 9,
+      "director": 24
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 48,
+    "fields": {
+      "title": "Andrei Rublev",
+      "year": 1966,
+      "rating": 9,
+      "director": 24
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 49,
+    "fields": {
+      "title": "All About My Mother",
+      "year": 1999,
+      "rating": 8,
+      "director": 25
+    }
+  },
+  {
+    "model": "app.movie",
+    "pk": 50,
+    "fields": {
+      "title": "Volver",
+      "year": 2006,
+      "rating": 8,
+      "director": 25
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Drama",
+      "movie": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        19,
+        34,
+        44,
+        45,
+        46,
+        49
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Thriller",
+      "movie": [
+        16,
+        17,
+        18,
+        25,
+        26,
+        29,
+        35,
+        36,
+        41,
+        42
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Sci-Fi",
+      "movie": [
+        1,
+        22,
+        24,
+        25,
+        27,
+        28,
+        38,
+        39,
+        40,
+        47
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Crime",
+      "movie": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        29,
+        30,
+        36,
+        41,
+        42
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Horror",
+      "movie": [
+        3,
+        16,
+        24,
+        32,
+        37
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Action",
+      "movie": [
+        7,
+        9,
+        12,
+        21,
+        23,
+        26,
+        29,
+        30,
+        38
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Fantasy",
+      "movie": [
+        37,
+        38,
+        43,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Comedy",
+      "movie": [
+        13,
+        14,
+        15,
+        20,
+        33,
+        43,
+        45,
+        49,
+        50
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Romance",
+      "movie": [
+        14,
+        15,
+        34,
+        49,
+        50
+      ]
+    }
+  },
+  {
+    "model": "app.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Documentary",
+      "movie": [
+        11,
+        19,
+        46,
+        48
+      ]
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 1,
+    "fields": {
+      "name": "George Orwell",
+      "email": "george.orwell@literaryestate.co.uk"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 2,
+    "fields": {
+      "name": "Franz Kafka",
+      "email": "franz.kafka@prager-literatur.de"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 3,
+    "fields": {
+      "name": "Fyodor Dostoevsky",
+      "email": "f.dostoevsky@russianclassics.ru"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 4,
+    "fields": {
+      "name": "Gabriel García Márquez",
+      "email": "gabo.marquez@macondo-editorial.co"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 5,
+    "fields": {
+      "name": "Toni Morrison",
+      "email": "toni.morrison@vintage-books.com"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 6,
+    "fields": {
+      "name": "Haruki Murakami",
+      "email": "murakami.h@shinchosha.co.jp"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 7,
+    "fields": {
+      "name": "Milan Kundera",
+      "email": "milan.kundera@gallimard.fr"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 8,
+    "fields": {
+      "name": "Bohumil Hrabal",
+      "email": "b.hrabal@odeon-prague.cz"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 9,
+    "fields": {
+      "name": "Ursula K. Le Guin",
+      "email": "ursula.leguin@harcourt.com"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 10,
+    "fields": {
+      "name": "Cormac McCarthy",
+      "email": "c.mccarthy@randomhouse.com"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 11,
+    "fields": {
+      "name": "Margaret Atwood",
+      "email": "m.atwood@mcclelland.ca"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 12,
+    "fields": {
+      "name": "Umberto Eco",
+      "email": "umberto.eco@bompiani.it"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 13,
+    "fields": {
+      "name": "Donna Tartt",
+      "email": "donna.tartt@little-brown.com"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 14,
+    "fields": {
+      "name": "Kazuo Ishiguro",
+      "email": "k.ishiguro@faber-faber.co.uk"
+    }
+  },
+  {
+    "model": "app.author",
+    "pk": 15,
+    "fields": {
+      "name": "Elena Ferrante",
+      "email": "e.ferrante@edizioni-e-o.it"
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 1,
+    "fields": {
+      "title": "Nineteen Eighty-Four",
+      "published_date": "1949-06-08",
+      "author": 1
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 2,
+    "fields": {
+      "title": "Animal Farm",
+      "published_date": "1945-08-17",
+      "author": 1
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 3,
+    "fields": {
+      "title": "Homage to Catalonia",
+      "published_date": "1938-04-25",
+      "author": 1
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 4,
+    "fields": {
+      "title": "The Trial",
+      "published_date": "1925-04-26",
+      "author": 2
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Metamorphosis",
+      "published_date": "1915-10-15",
+      "author": 2
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 6,
+    "fields": {
+      "title": "The Castle",
+      "published_date": "1926-09-01",
+      "author": 2
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 7,
+    "fields": {
+      "title": "Crime and Punishment",
+      "published_date": "1866-01-01",
+      "author": 3
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 8,
+    "fields": {
+      "title": "The Brothers Karamazov",
+      "published_date": "1880-11-01",
+      "author": 3
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 9,
+    "fields": {
+      "title": "The Idiot",
+      "published_date": "1868-01-01",
+      "author": 3
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 10,
+    "fields": {
+      "title": "One Hundred Years of Solitude",
+      "published_date": "1967-05-30",
+      "author": 4
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 11,
+    "fields": {
+      "title": "Love in the Time of Cholera",
+      "published_date": "1985-09-05",
+      "author": 4
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 12,
+    "fields": {
+      "title": "The General in His Labyrinth",
+      "published_date": "1989-01-01",
+      "author": 4
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 13,
+    "fields": {
+      "title": "Beloved",
+      "published_date": "1987-09-02",
+      "author": 5
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 14,
+    "fields": {
+      "title": "Song of Solomon",
+      "published_date": "1977-09-08",
+      "author": 5
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 15,
+    "fields": {
+      "title": "Norwegian Wood",
+      "published_date": "1987-09-04",
+      "author": 6
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 16,
+    "fields": {
+      "title": "The Wind-Up Bird Chronicle",
+      "published_date": "1994-08-01",
+      "author": 6
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 17,
+    "fields": {
+      "title": "Kafka on the Shore",
+      "published_date": "2002-09-12",
+      "author": 6
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 18,
+    "fields": {
+      "title": "1Q84",
+      "published_date": "2009-05-29",
+      "author": 6
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 19,
+    "fields": {
+      "title": "The Unbearable Lightness of Being",
+      "published_date": "1984-04-01",
+      "author": 7
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 20,
+    "fields": {
+      "title": "The Book of Laughter and Forgetting",
+      "published_date": "1979-01-01",
+      "author": 7
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 21,
+    "fields": {
+      "title": "Closely Watched Trains",
+      "published_date": "1965-01-01",
+      "author": 8
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 22,
+    "fields": {
+      "title": "I Served the King of England",
+      "published_date": "1971-01-01",
+      "author": 8
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 23,
+    "fields": {
+      "title": "Too Loud a Solitude",
+      "published_date": "1976-01-01",
+      "author": 8
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 24,
+    "fields": {
+      "title": "The Left Hand of Darkness",
+      "published_date": "1969-03-01",
+      "author": 9
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 25,
+    "fields": {
+      "title": "The Dispossessed",
+      "published_date": "1974-05-01",
+      "author": 9
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 26,
+    "fields": {
+      "title": "The Road",
+      "published_date": "2006-09-26",
+      "author": 10
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 27,
+    "fields": {
+      "title": "Blood Meridian",
+      "published_date": "1985-04-28",
+      "author": 10
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 28,
+    "fields": {
+      "title": "No Country for Old Men",
+      "published_date": "2005-07-19",
+      "author": 10
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 29,
+    "fields": {
+      "title": "The Handmaid's Tale",
+      "published_date": "1985-08-17",
+      "author": 11
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 30,
+    "fields": {
+      "title": "Alias Grace",
+      "published_date": "1996-09-07",
+      "author": 11
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 31,
+    "fields": {
+      "title": "The Name of the Rose",
+      "published_date": "1980-01-01",
+      "author": 12
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 32,
+    "fields": {
+      "title": "Foucault's Pendulum",
+      "published_date": "1988-10-01",
+      "author": 12
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 33,
+    "fields": {
+      "title": "The Secret History",
+      "published_date": "1992-09-16",
+      "author": 13
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 34,
+    "fields": {
+      "title": "The Goldfinch",
+      "published_date": "2013-09-23",
+      "author": 13
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 35,
+    "fields": {
+      "title": "The Remains of the Day",
+      "published_date": "1989-05-15",
+      "author": 14
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 36,
+    "fields": {
+      "title": "Never Let Me Go",
+      "published_date": "2005-03-03",
+      "author": 14
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 37,
+    "fields": {
+      "title": "My Brilliant Friend",
+      "published_date": "2011-10-07",
+      "author": 15
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 38,
+    "fields": {
+      "title": "The Story of a New Name",
+      "published_date": "2012-10-30",
+      "author": 15
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 39,
+    "fields": {
+      "title": "Those Who Leave and Those Who Stay",
+      "published_date": "2013-09-10",
+      "author": 15
+    }
+  },
+  {
+    "model": "app.book",
+    "pk": 40,
+    "fields": {
+      "title": "The Story of the Lost Child",
+      "published_date": "2014-09-01",
+      "author": 15
+    }
+  }
+]
