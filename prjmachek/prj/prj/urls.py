@@ -1,8 +1,11 @@
-from django.contrib import admin
 from django.urls import path
-from prj.api import api  # přidej tento import
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', api.urls),  # přidej tento řádek
+
+
+    path('api-playground/', views.api_playground, name='api_playground'),
+
+
+    path('api/polozky/', views.api_polozky, name='api_polozky'),
 ]
