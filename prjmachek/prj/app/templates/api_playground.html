@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>API Playground</h1>
+<p>Vyzkoušej volání endpointu přímo z prohlížeče pomocí <code>fetch()</code>.</p>
+
+<div style="display:flex; gap:8px; margin-bottom:1rem;">
+  <input type="text" id="searchInput"
+         placeholder="Hledat položky..."
+         style="flex:1; padding:8px 12px; border:1px solid #ccc; border-radius:6px;">
+  <button id="searchBtn"
+          style="padding:8px 16px; background:#0d6efd; color:#fff; border:none; border-radius:6px; cursor:pointer;">
+    Hledat
+  </button>
+</div>
+
+<div id="status" style="font-size:0.875rem; color:#666; margin-bottom:0.5rem;"></div>
+<div id="vysledky"></div>
+
+<script>
+
+
+  async function nactiPolozky(query = '') {
+    const statusEl  = document.getElementById('status');
+    const vysledkyEl = document.getElementById('vysledky');
+
+    statusEl.textContent = 'Načítám...';
+    vysledkyEl.innerHTML = '';
+
+   
+    const url = query
+      ? `/api/polozky/?q=${encodeURIComponent(query)}`
+      : '/api/polozky/';
+
+    try {
+   
+      const response = await fetch(url);
+
+      if (!response.ok) {
+        throw new Error(`HTTP chyba: ${response.status}`);
+      }
+
+   
+      const data = await response.json();
+
+     
+      statusEl.textContent = `Nalezeno: ${data.pocet} položek`;
+      zobrazVysledky(data.polozky);
+
+    } catch (error) {
+      statusEl.textContent = `Chyba: ${error.message}`;
+    }
+  }
+
+  function zobrazVysledky(polozky) {
+    const el = document.getElementById('vysledky');
+
+    if (polozky.length === 0) {
+      el.innerHTML = '<p>Žádné výsledky.</p>';
+      return;
+    }
+
+  
+    el.innerHTML = polozky.map(p => `
+      <div style="border:1px solid #ddd; padding:12px; margin-bottom:8px; border-radius:6px;">
+        <strong>#${p.id} — ${p.nazev}</strong>
+        <p style="margin:4px 0 0; color:#555;">${p.popis || '—'}</p>
+      </div>
+    `).join('');
+  }
+
+
+  document.getElementById('searchBtn').addEventListener('click', () => {
+    const q = document.getElementById('searchInput').value.trim();
+    nactiPolozky(q);
+  });
+
+
+  document.getElementById('searchInput').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') nactiPolozky(e.target.value.trim());
+  });
+
+ 
+  nactiPolozky();
+</script>
+
+{% endblock %}
